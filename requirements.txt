@@ -1,0 +1,14 @@
+# Core DDPM pipeline (ddpm/unet.py, diffusion.py, data.py, config.py, train.py)
+torch>=2.0
+torchvision>=0.15
+
+# Image decoding (data.py: CubismDataset / CubismTiny)
+Pillow>=9.0
+
+# Quick-validation loss curve plotting only (quick_validation.py, ddpmModel.ipynb)
+matplotlib>=3.5
+
+# Note: torch/torchvision above are CPU wheels by default. On a GPU/SLURM
+# cluster, install the CUDA build matching that cluster's CUDA version
+# instead (see https://pytorch.org/get-started/locally/) before installing
+# the rest of this file.

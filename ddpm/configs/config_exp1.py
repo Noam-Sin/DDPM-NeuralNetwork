@@ -14,8 +14,8 @@ wherever the 2235-image Cubism folder lives.
 from config import TrainConfig
 
 config = TrainConfig(
-    run_name="exp1_baseline",
-    data_root="/home/noam.sinay/Downloads/Cubism",
+    run_name="exp1_baseline_full",
+    data_root="/projects/nn-bsc/shahar.girtler/DDPM-NeuralNetwork/data/cubism_64",
 
     # Diffusion process -- paper defaults (Ho, Jain, Abbeel 2020, Sec. 4)
     T=1000,

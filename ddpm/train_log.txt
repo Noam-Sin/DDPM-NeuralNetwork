@@ -1,0 +1,30 @@
+Loading & caching tiny Cubism subset...
+  300 images cached in 5.2s
+Model params: 8.95M
+
+Starting training: 800 steps, batch_size=8, T=1000
+Sampling at step 0 (untrained model) for baseline comparison...
+  [sample] step=0 (raw) saved to /home/noam.sinay/Downloads/ddpm/outputs/samples_step00000_raw.png  (71.2s for 4 imgs, 1000 steps)
+  step    1/800  loss=1.0087  avg_last50=1.0087  elapsed=1s
+  step   50/800  loss=0.2553  avg_last50=0.5989  elapsed=20s
+  step  100/800  loss=0.0590  avg_last50=0.1532  elapsed=40s
+  step  150/800  loss=0.0415  avg_last50=0.0973  elapsed=64s
+  step  200/800  loss=0.0347  avg_last50=0.0590  elapsed=85s
+  step  250/800  loss=0.0746  avg_last50=0.0669  elapsed=105s
+  step  300/800  loss=0.0556  avg_last50=0.0721  elapsed=126s
+  step  350/800  loss=0.0383  avg_last50=0.0617  elapsed=146s
+  step  400/800  loss=0.0330  avg_last50=0.0510  elapsed=166s
+  [sample] step=400 (raw) saved to /home/noam.sinay/Downloads/ddpm/outputs/samples_step00400_raw.png  (66.1s for 4 imgs, 1000 steps)
+  step  450/800  loss=0.0132  avg_last50=0.0675  elapsed=254s
+  step  500/800  loss=0.1683  avg_last50=0.0678  elapsed=276s
+  step  550/800  loss=0.1670  avg_last50=0.0652  elapsed=296s
+  step  600/800  loss=0.0940  avg_last50=0.0628  elapsed=316s
+  step  650/800  loss=0.0164  avg_last50=0.0572  elapsed=336s
+  step  700/800  loss=0.0236  avg_last50=0.0589  elapsed=355s
+  step  750/800  loss=0.0216  avg_last50=0.0611  elapsed=374s
+  step  800/800  loss=0.0791  avg_last50=0.0599  elapsed=393s
+  [sample] step=800 (raw) saved to /home/noam.sinay/Downloads/ddpm/outputs/samples_step00800_raw.png  (56.6s for 4 imgs, 1000 steps)
+
+Training done in 450s
+Loss curve saved to /home/noam.sinay/Downloads/ddpm/outputs/loss_curve.png
+Checkpoint saved.
